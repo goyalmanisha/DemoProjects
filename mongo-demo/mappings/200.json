@@ -1,0 +1,12 @@
+{
+	"request":{
+		"method":"PUT",
+		"urlPath":"/minions",
+		"bodyPatterns":[{
+			"matchesJsonPath":"$.name"
+		}]
+	},
+	"response":{
+		"status":200
+	}
+}
